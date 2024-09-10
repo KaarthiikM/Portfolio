@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+}
+
+.navitems{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.title{
+    display: inline;
+}
+
+.logo{
+    height:3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.navitems a{
+    text-decoration: none;
+    color: white;
+}
+
+.navitems a:hover{
+    color: aqua;
+}
+/* .navitems a:visited{
+    color: cyan;
+} */

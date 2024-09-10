@@ -1,0 +1,13 @@
+:root{
+    --color-grey1:#1b1b1b;
+    --color-grey2:#505050;
+    --color-violet:rgb(2, 1, 6);
+    --color-cyan: cyan;
+}
+
+body{
+    /* background-image: linear-gradient(to bottom, var(--color-grey1) 50%, var(--color-cyan) 50%); */
+    height: 100vh;
+    background-image: linear-gradient(var(--color-violet) 50%,var(--color-cyan));
+    padding: 20px;
+}
